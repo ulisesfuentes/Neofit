@@ -15,12 +15,17 @@
     <div class="pag">
         <div class="header">
             <div class="logo">
-                <a href="grid.html">
+                <a href="#">
                     <img src="imagenes/titulo.png" width="190px" ; height="55px" ; alt="logo">
                 </a>
             </div>
+            <div id='search-box'>
+                <form action='/search' id='search-form' method='get' target='_top'>
+                    <input id='search-text' name='q' placeholder='Escribe lo que buscas' type='text' />
+                    <button id='search-button' type='submit'><span>Busca!</span></button>
+                </form>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>

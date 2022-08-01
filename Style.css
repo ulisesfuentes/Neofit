@@ -28,3 +28,60 @@
 .logo {
     grid-area: logo;
 }
+
+
+/*buscador*/
+
+.buscador {
+    grid-area: buscador;
+}
+
+#search-box {
+    position: relative;
+    width: 80%;
+    margin: 0;
+    margin-left: 80px;
+    padding-top: 12px;
+}
+
+#search-form {
+    height: 40px;
+    border: 1px solid #000000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#search-text {
+    font-size: 14px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+}
+
+#search-box input[type="text"] {
+    width: 90%;
+    padding: 8px 0 12px 1em;
+    color: #333;
+    outline: none;
+}
+
+#search-button {
+    position: absolute;
+    padding-top: 0px;
+    margin-left: 80px;
+    right: 0;
+    height: 41px;
+    width: 80px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 4px;
+    border-width: 0;
+    background-color: rgb(87, 87, 87);
+    -webkit-border-radius: 0px 15px 15px;
+    -moz-border-radius: 0px 15px 15px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}

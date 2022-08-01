@@ -85,3 +85,19 @@
     border-radius: 15px;
     cursor: pointer;
 }
+
+
+/*USUARIO*/
+
+.usuario {
+    grid-area: usuario;
+    padding-top: 12px;
+}
+
+
+/*CARRITO*/
+
+.carrito {
+    grid-area: carrito;
+    padding-top: 12px;
+}

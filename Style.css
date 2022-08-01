@@ -14,3 +14,13 @@
     grid-template-rows: 8% 7% 60% 42% 35%;
     grid-template-columns: 25% 25% 25% 25%;
 }
+
+
+/*HEADER*/
+
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template-areas: 'logo buscador usuario carrito menu';
+    grid-template-columns: 20% 65% 5% 5% 5%;
+}

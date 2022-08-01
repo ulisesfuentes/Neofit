@@ -24,3 +24,7 @@
     grid-template-areas: 'logo buscador usuario carrito menu';
     grid-template-columns: 20% 65% 5% 5% 5%;
 }
+
+.logo {
+    grid-area: logo;
+}

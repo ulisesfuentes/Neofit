@@ -229,11 +229,23 @@
     }
 }
 
+
+/*footer*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Open sans, sans-serif;
 }
+
+.pie-pagina {
+    width: 100%;
+    background-color: #000000;
+}
+
+
+/*footer*/
 
 
 /*END DE FLYERS*/

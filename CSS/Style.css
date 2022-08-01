@@ -101,3 +101,74 @@
     grid-area: carrito;
     padding-top: 12px;
 }
+
+
+/*MENU*/
+
+.menu {
+    grid-area: menu;
+    padding-top: 12px;
+}
+
+
+/*END HEADER*/
+
+
+/*NAV*/
+
+.nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-areas: 'remeras pantalones zapatillas accesorios';
+}
+
+.remeras {
+    grid-area: remeras;
+}
+
+.pantalones {
+    grid-area: pantalones;
+}
+
+.zapatillas {
+    grid-area: zapatillas;
+}
+
+.accesorios {
+    grid-area: accesorios;
+}
+
+.listnav {
+    list-style: none;
+    text-align: center;
+}
+
+.link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 2px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.link::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: rgb(87, 87, 87);
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+
+.link:hover::after {
+    transform: scaleX(1);
+}
+
+
+/*END NAV*/

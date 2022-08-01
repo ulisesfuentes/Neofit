@@ -230,6 +230,42 @@
 }
 
 
+/*footer*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open sans, sans-serif;
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: #000000;
+}
+
+.pie-pagina .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid: gap 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina.grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*footer*/
+
+
 /*END DE FLYERS*/
 
 

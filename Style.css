@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Nunito:ital,wght@1,300&display=swap');
+* {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+.pag {
+    height: 1000px;
+    width: 99%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 'header header header header' 'nav nav nav nav' 'flyers flyers flyers flyers' 'articulo rticulo rticulo rticulo' 'footer footer footer footer';
+    grid-template-rows: 8% 7% 60% 42% 35%;
+    grid-template-columns: 25% 25% 25% 25%;
+}

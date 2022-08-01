@@ -264,3 +264,25 @@
     position: relative;
     width: 220px;
 }
+
+.product_container:hover {
+    box-shadow: 0px 0px 0px 1px darkgray inset;
+}
+
+.add_to_cart_button {
+    margin: 15px;
+    height: 45px;
+    width: 90px;
+    text-decoration: none;
+    visibility: hidden;
+    position: relative;
+    text-align: center;
+    background-color: darkgrey;
+    color: #fff;
+    border-radius: 3px;
+    transform: translateX(100%);
+}
+
+.add_to_cart_button:hover {
+    box-shadow: 0px 0px 0px 2px gray inset;
+}

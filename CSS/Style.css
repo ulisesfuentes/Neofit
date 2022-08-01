@@ -302,14 +302,18 @@
     margin: 15px;
     height: 45px;
     width: 90px;
-    text-decoration: none;
     visibility: hidden;
     position: relative;
     text-align: center;
     background-color: darkgrey;
-    color: #fff;
     border-radius: 3px;
     transform: translateX(100%);
+}
+
+.add_to_cart_button,
+a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .add_to_cart_button:hover {
@@ -321,6 +325,9 @@
     transform: translateX(0%);
     visibility: visible;
 }
+
+
+/*end of PRODUCTS*/
 
 h1 {
     text-align: center;

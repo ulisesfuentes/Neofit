@@ -231,3 +231,13 @@
 
 
 /*END DE FLYERS*/
+
+
+/*PRODUCTS*/
+
+.grid_of_products {
+    display: grid;
+    width: 680px;
+    grid-template-columns: 220px 220px 220px;
+    gap: 10px;
+}

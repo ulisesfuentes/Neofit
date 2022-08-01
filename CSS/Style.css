@@ -241,3 +241,8 @@
     grid-template-columns: 220px 220px 220px;
     gap: 10px;
 }
+
+.product_container {
+    position: relative;
+    width: 220px;
+}

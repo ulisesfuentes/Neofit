@@ -1,18 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Nunito:ital,wght@1,300&display=swap');
 * {
-    text-align: center;
     font-family: 'Mulish', sans-serif;
-}
-
-.pag {
-    height: 1000px;
-    width: 99%;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-areas: 'header header header header' 'nav nav nav nav' 'flyers flyers flyers flyers' 'articulo rticulo rticulo rticulo' 'footer footer footer footer';
-    grid-template-rows: 8% 7% 60% 42% 35%;
-    grid-template-columns: 25% 25% 25% 25%;
 }
 
 
@@ -237,7 +226,6 @@
 
 .grid_of_products {
     display: grid;
-    grid-area: articulo;
     width: 680px;
     grid-template-columns: 220px 220px 220px;
     gap: 10px;
@@ -246,6 +234,7 @@
 .product_container {
     position: relative;
     width: 220px;
+    margin-bottom: 60px;
 }
 
 .product_container:hover {
@@ -278,6 +267,10 @@ a {
     transition: all 0.5s ease 0s;
     transform: translateX(0%);
     visibility: visible;
+}
+
+.product_image {
+    margin: 1px;
 }
 
 

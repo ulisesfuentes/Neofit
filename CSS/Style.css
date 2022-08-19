@@ -2,40 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Nunito:ital,wght@1,300&display=swap');
 * {
     font-family: 'Mulish', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
 /*HEADER*/
 
 .header {
-    grid-area: header;
-    display: grid;
-    grid-template-areas: 'logo buscador usuario carrito menu';
-    grid-template-columns: 20% 65% 5% 5% 5%;
-}
-
-.logo {
-    grid-area: logo;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
 }
 
 
 /*buscador*/
 
-.buscador {
-    grid-area: buscador;
-}
-
 #search-box {
-    position: relative;
-    width: 80%;
-    margin: 0;
-    margin-left: 80px;
     padding-top: 12px;
+    display: block;
 }
 
 #search-form {
-    height: 40px;
-    border: 1px solid #000000;
+    height: 39px;
+    padding-top: -2px;
+    border: 2px solid #000000;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -46,11 +37,12 @@
     font-size: 14px;
     color: #ddd;
     border-width: 0;
+    padding-left: 5px;
     background: transparent;
 }
 
 #search-box input[type="text"] {
-    width: 90%;
+    width: 83%;
     padding: 8px 0 12px 1em;
     color: #333;
     outline: none;
@@ -58,97 +50,46 @@
 
 #search-button {
     position: absolute;
-    padding-top: 0px;
-    margin-left: 80px;
-    right: 0;
-    height: 41px;
+    height: 42px;
     width: 80px;
     font-size: 14px;
+    padding-left: 0px;
+    margin-left: -40px;
+    padding-bottom: 1px;
     color: white;
-    text-align: center;
     line-height: 4px;
-    border-width: 0;
     background-color: rgb(87, 87, 87);
-    -webkit-border-radius: 0px 15px 15px;
-    -moz-border-radius: 0px 15px 15px 15px;
     border-radius: 15px;
     cursor: pointer;
-}
-
-
-/*USUARIO*/
-
-.usuario {
-    grid-area: usuario;
-    padding-top: 12px;
-}
-
-
-/*CARRITO*/
-
-.carrito {
-    grid-area: carrito;
-    padding-top: 12px;
 }
 
 
 /*MENU*/
 
 .menu {
-    grid-area: menu;
     padding-top: 12px;
-}
-
-
-/*END HEADER*/
-
-
-/*NAV*/
-
-.nav {
-    grid-area: nav;
-    display: grid;
-    grid-template-areas: 'remeras pantalones zapatillas accesorios';
-}
-
-.remeras {
-    grid-area: remeras;
-}
-
-.pantalones {
-    grid-area: pantalones;
-}
-
-.zapatillas {
-    grid-area: zapatillas;
-}
-
-.accesorios {
-    grid-area: accesorios;
 }
 
 .listnav {
     list-style: none;
-    text-align: center;
+    padding: 0px 0px 0px 0px;
 }
 
 .link {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    margin: 2px;
-    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    font-size: 18px;
     color: rgb(0, 0, 0);
     position: relative;
 }
 
 .link::after {
     content: "";
-    width: 100%;
+    width: 90%;
     height: 3px;
     background-color: rgb(87, 87, 87);
     border-radius: 4px;
     position: absolute;
-    left: 0;
+    left: 2px;
     bottom: 0;
     transform: scaleX(0);
     transform-origin: left;

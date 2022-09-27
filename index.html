@@ -9,71 +9,121 @@
     <!--script para el logo de usuario-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <title>NeoFit</title>
+    <script src="https://kit.fontawesome.com/7c704a8b81.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="header">
-        <div class="logo">
-            <a href="#">
-                <img src="imagenes/titulo.png" width="190px" ; height="55px" ; alt="logo">
-            </a>
-        </div>
-        <!--USUARIO-
-            <div class="usuario">
+    <center>
+        <div class="header">
+            <div class="logo">
                 <a href="#">
-                    <i class="fa fa-user fa-3x"></i>
-            </a>
-        </div>-->
-        <!--MENU-->
-        <!--CARRITO
-            <div class="carrito">
-                <a href="#">
-                    <img src="imagenes/carrritocompra.jpg" alt="carris" height="42px" width="42px">
+                    <img src="imagenes/titulo.png" width="190px" ; height="55px" ; alt="logo">
                 </a>
             </div>
-        -->
-        <div class="remera">
-            <ul class="listnav">
-                <li>
-                    <a href="#" class="link">Remera</a>
-                </li>
-            </ul>
+            <div class="nav">
+                <div class="seccion">
+                    <a href="#" class="link">REMERAS</a>
+                    <div class="xs">
+                        <ul>
+                            <li><a href="#">REMERAS MANGA LARGA</a></li>
+                            <li><a href="#">REMERAS MANGA CORTA</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="seccion">
+
+                    <a href="#" class="link">PANTALONES</a>
+                    <div class="xs">
+                        <ul>
+                            <li><a href="#">JEANS</a></li>
+                            <li><a href="#">BERMUDAS</a></li>
+                            <li><a href="#">SHOGGINS</a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="seccion">
+
+                    <a href="#" class="link">ZAPATILLAS</a>
+                    <div class="xs">
+                        <ul>
+                            <li><a href="#">ZAPATILLAS NIÑOS</a></li>
+                            <li><a href="#">ZAPATILLAS ADULTOS</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="seccion">
+
+                    <a href="#" class="link">ACCESORIOS</a>
+                    <div class="xs">
+                        <ul>
+                            <li><a href="#">ROPA INTERIOR</a></li>
+                            <li><a href="#">CARTERAS</a></li>
+                            <li><a href="#">GORRAS</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id='search-box'>
+                <form action='/search' id='search-form' method='get' target='_top'>
+                    <input id='search-text' name='q' placeholder='Busca lo que queres' type='text' />
+                    <button id='search-button' type='submit'><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+            <!--USUARIO-->
+            <div class="usuario">
+                <a href="#">
+                    <i class="user-icon fa-solid fa-circle-user"></i>
+                </a>
+            </div>
+
+            <!--CARRITO-->
+            <div class="container_sc">
+                <div class="shopping-cart">
+                    <h1 class="text-center">CARRITO</h1>
+    
+                    
+                    <!-- ? START SHOPPING CART ITEMS -->
+                    <div class="shopping-cart-items shoppingCartItemsContainer">
+                    </div>
+                    <!-- ? END SHOPPING CART ITEMS -->
+        
+                    <!-- START TOTAL -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="shopping-cart-total d-flex align-items-center">
+                                <p class="mb-0">Total</p>
+                                <p class="ml-4 mb-0 shoppingCartTotal">$0</p>
+                                <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                                    data-target="#comprarModal">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
         </div>
-        <div class="pantalon">
-            <ul class="listnav">
-                <li>
-                    <a href="#" class="link">Pantalon</a>
-                </li>
-            </ul>
-        </div>
-        <div class="zapatilla">
-            <ul class="listnav">
-                <li>
-                    <a href="#" class="link">Zapatilla</a>
-                </li>
-            </ul>
-        </div>
-        <div id='search-box'>
-            <form action='/search' id='search-form' method='get' target='_top'>
-                <input id='search-text' name='q' placeholder='Escribe lo que buscas' type='text' />
-                <button id='search-button' type='submit'><span>Busca!</span></button>
-            </form>
-        </div>
-        <div class="menu">
-            <a href="#">
-                <img src="imagenes/menu.jpg" alt="menu" height="47px" width="47px">
-            </a>
-        </div>
+    </center>
+    <!--FIN HEADER-->
+
+
+    <div class="service_information">
+        <a href="#">Informacion sobre servicios</a>
     </div>
-    <!--END HEADER-->
 
     <!--FLYERS-->
     <div class="flyers">
         <div class="slider">
             <ul>
-                <li>
-                    <img src="imagenes/Post de Facebook Moda Ropa Ventas Moderno Minimalista Negro.png" height="575px" width="400px" alt="">
-                </li>
+               
                 <li>
                     <img src="imagenes/Presentación ¿Cómo tener un hogar ordenado.jpg" height="575px" width="450px" alt="">
                 </li>
@@ -88,61 +138,50 @@
     </div>
 
     <h1>AÑADIDOS RECIENTEMENTE</h1>
+
+    <!--PRODUCTOS-->
+
     <center>
         <div class="grid_of_products">
             <!-- 1st PRODUCT-->
-            <div class="product_container">
-                <div class="product_image">
-                    <img src="Imagenes/algodon-negro-200x200.jpg">
-                </div>
-                <div class="add_to_cart_button">
-                    <a href="#">Añadir al carrito</a>
-                </div>
-                <div class="product_name">
-                    <h3>Campera</h3>
-                </div>
-                <div class="product_price">
-                    <h3>$2999</h3>
-                </div>
+            <div class="item">
+                
+                    <img class="item-image" src="imagenes/algodon-negro-200x200.jpg">
+                    <h4 class="item-price">$2999</h4>
+                    <h3 class="item-title">Remera</h3>
+                    <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+                
             </div>
             <!--end of 1st PRODUCT -->
 
             <!--2nd PRODUCT-->
-            <div class="product_container">
-                <div class="product_image">
-                    <img src="Imagenes/algodon-negro-200x200.jpg">
-                </div>
-                <div class="add_to_cart_button">
-                    <a href="#">Añadir al carrito</a>
-                </div>
-                <div class="product_name">
-                    <h3>Pantalon</h3>
-                </div>
-                <div class="product_price">
-                    <h3>$2999</h3>
-                </div>
+            <div class="item">
+                
+                    <img class="item-image" src="imagenes/algodon-negro-200x200.jpg">
+                    <h4 class="item-price">$2999</h4>
+                    <h3 class="item-title">Pantalon</h3>
+                    <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+                
             </div>
             <!--end of 2nd PRODUCT-->
 
             <!--3rd PRODUCT-->
-            <div class="product_container">
-                <div class="product_image">
-                    <img src="Imagenes/algodon-negro-200x200.jpg">
-                </div>
-                <div class="add_to_cart_button">
-                    <a href="#">Añadir al carrito</a>
-                </div>
-                <div class="product_name">
-                    <h3>Remera</h3>
-                </div>
-                <div class="product_price">
-                    <h3>$2999</h3>
-                </div>
+            <div class="item">
+                
+                    <img class="item-image" src="imagenes/algodon-negro-200x200.jpg">
+                    <h4 class="item-price">$2999</h4>
+                    <h3 class="item-title">Campera</h3>
+                    <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+               
             </div>
             <!--end of 3rd PRODUCT-->
         </div>
     </center>
-    <!-- inicio  del footer-->
+    
+
+<!--FIN PRODUCTOS-->
+
+<!-- inicio  del footer-->
     <footer class="pie-pagina">
         <div class="grupo1">
             <div class="box">
@@ -168,7 +207,19 @@
         </div>
     </footer>
     <!--fin del footer-->
+
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <script src="JS/carrito.js"></script>
+
 </body>
-
-
-</html>

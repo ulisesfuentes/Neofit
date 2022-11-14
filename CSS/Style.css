@@ -221,17 +221,17 @@ body{
     top: 60px;
     left: 100%;
     width: 100%;
-    line-height: 98px;
+    line-height: 48px;
     transition: left 0.3s;
 }
 .link{
     left: 0;
-    top: 0;
+    top: 10px;
     position: fixed;
 }
 
 .xs{
-    line-height: 20px;
+    line-height: 30px;
     margin-left: 150px;
     color: black;
     text-align: center;
@@ -246,7 +246,7 @@ body{
 background-color: darkgray;
 }
 .nav-menu-item{
-    height: 50%;
+    height: 80px;
 }
 
 .header{
@@ -273,7 +273,12 @@ background-color: darkgray;
 .container_sc, #search-box{
     display: none;
 }
-/*buscador*/
+/*productos*/
+.grid_of_products{
+    display: none;
+}
+
+
 }
 
 

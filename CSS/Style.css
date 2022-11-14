@@ -372,7 +372,7 @@ background-color: darkgray;
     display: flex;
     padding: 0;
     margin: 0;
-    width: 400%;
+    width: 300%;
     animation: cambio 20s infinite alternate linear;
 }
 
@@ -400,16 +400,16 @@ background-color: darkgray;
         margin-left: -100%;
     }
     50% {
-        margin-left: -200%;
+        margin-left: -100%;
     }
     70% {
-        margin-left: -200%;
+        margin-left: -100%;
     }
     75% {
-        margin-left: -300%;
+        margin-left: -200%;
     }
     100% {
-        margin-left: -300%;
+        margin-left: -200%;
     }
 }
 

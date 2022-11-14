@@ -810,3 +810,17 @@ footer {
     opacity: 0;
     visibility: hidden;
 }
+
+.submit:hover{
+    transform: translateX(210px);
+}
+.move{
+    display: flex;
+    list-style: none;
+    animation: scrolling 5s linear;
+}
+ 
+@keyframes scrolling {
+    0% { transform: translateX(0) }
+    100% { transform: translateX(-100%) }
+  }

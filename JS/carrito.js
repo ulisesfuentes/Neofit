@@ -17,11 +17,14 @@ function addToCartClicked(event) {
   const itemTitle = item.querySelector('.item-title').textContent;
   const itemPrice = item.querySelector('.item-price').textContent;
   const itemImage = item.querySelector('.item-image').src;
+  const itemSize = item.querySelector('.item-size').value;
 
-  addItemToShoppingCart(itemTitle, itemPrice, itemImage);
+  addItemToShoppingCart(itemTitle, itemPrice, itemImage, itemSize);
+
+  
 }
 
-function addItemToShoppingCart(itemTitle, itemPrice, itemImage) {
+function addItemToShoppingCart(itemTitle, itemPrice, itemImage, itemSize) {
   const elementsTitle = shoppingCartItemsContainer.getElementsByClassName(
     'shoppingCartItemTitle'
   );
@@ -51,6 +54,11 @@ function addItemToShoppingCart(itemTitle, itemPrice, itemImage) {
         <div class="col-2">
             <div class="shopping-cart-price d-flex align-items-center h-100 border-bottom pb-2 pt-3">
                 <p class="item-price mb-0 shoppingCartItemPrice">${itemPrice}</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="shopping-cart-size d-flex align-items-center h-100 border-bottom pb-2 pt-3">
+                <p class="item-size mb-0 shoppingCartItemSize">${itemSize}</p>
             </div>
         </div>
         <div class="col-4">

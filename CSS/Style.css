@@ -734,3 +734,14 @@ footer {
 
 
 /*fin de sesion*/
+
+
+/*inicio de boton flotante*/
+
+.floating-contact-form .contact-icon {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    cursor: pointer;
+    padding: 16px;
+}

@@ -611,6 +611,11 @@ footer {
 .message button {
     padding: 1rem;
     font-weight: 400;
+    background-color: #4a4aee;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 

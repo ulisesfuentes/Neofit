@@ -650,6 +650,10 @@ footer {
     height: 20px;
     width: 20px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: solid thin white;
 }
 
 

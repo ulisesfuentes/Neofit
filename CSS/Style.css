@@ -717,5 +717,11 @@ footer {
     transform: translateX(210px);
 }
 
+.move {
+    display: flex;
+    list-style: none;
+    animation: scrolling 5s linear;
+}
+
 
 /*fin de sesion*/

@@ -603,5 +603,10 @@ footer {
     padding: 1rem;
 }
 
+.message h2 {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+}
+
 
 /*fin de sesion*/

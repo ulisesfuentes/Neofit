@@ -692,6 +692,9 @@ footer {
     background-color: white;
     font-weight: 600;
     margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: #222;
 }
 
 

@@ -634,5 +634,10 @@ footer {
     text-align: center;
 }
 
+.create-account {
+    padding: 2.7rem 0;
+    font-size: 1.7rem;
+}
+
 
 /*fin de sesion*/

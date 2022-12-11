@@ -659,5 +659,10 @@ footer {
     transition: all .3s ease-in;
 }
 
+.border-icon:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
 
 /*fin de sesion*/

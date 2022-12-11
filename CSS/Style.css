@@ -687,6 +687,11 @@ footer {
     width: 60%;
     margin: auto;
     border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 3rem;
 }
 
 

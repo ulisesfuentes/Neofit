@@ -708,5 +708,10 @@ footer {
     visibility: visible;
 }
 
+.sign-up.active {
+    opacity: 0;
+    visibility: hidden;
+}
+
 
 /*fin de sesion*/

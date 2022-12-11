@@ -668,5 +668,11 @@ footer {
     padding: 2rem 0;
 }
 
+.formulario input {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
 
 /*fin de sesion*/

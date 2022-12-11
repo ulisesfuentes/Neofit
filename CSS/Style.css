@@ -654,6 +654,9 @@ footer {
     justify-content: center;
     padding: 1.5rem;
     border: solid thin white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all .3s ease-in;
 }
 
 

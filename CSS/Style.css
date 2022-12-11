@@ -672,6 +672,10 @@ footer {
     width: 70%;
     display: block;
     margin: auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
 }
 
 

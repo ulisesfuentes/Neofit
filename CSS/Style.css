@@ -676,6 +676,11 @@ footer {
     background-color: transparent;
     border: none;
     border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: .9rem;
+    color: white;
 }
 
 

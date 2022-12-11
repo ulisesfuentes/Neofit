@@ -599,5 +599,9 @@ footer {
     text-align: center;
 }
 
+.message {
+    padding: 1rem;
+}
+
 
 /*fin de sesion*/

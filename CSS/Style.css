@@ -703,5 +703,10 @@ footer {
     visibility: hidden;
 }
 
+.sign-in.active {
+    opacity: 1;
+    visibility: visible;
+}
+
 
 /*fin de sesion*/

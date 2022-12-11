@@ -683,5 +683,11 @@ footer {
     color: white;
 }
 
+.formulario input[type="button"] {
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+}
+
 
 /*fin de sesion*/

@@ -616,6 +616,10 @@ footer {
     border: none;
     outline: none;
     cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: #fff;
 }
 
 

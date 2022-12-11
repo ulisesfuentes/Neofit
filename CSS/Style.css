@@ -697,5 +697,11 @@ footer {
     color: #222;
 }
 
+.sign-in {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
 
 /*fin de sesion*/

@@ -608,5 +608,10 @@ footer {
     padding: 1rem 0;
 }
 
+.message button {
+    padding: 1rem;
+    font-weight: 400;
+}
+
 
 /*fin de sesion*/

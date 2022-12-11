@@ -723,5 +723,14 @@ footer {
     animation: scrolling 5s linear;
 }
 
+@keyframes scrolling {
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-100%)
+    }
+}
+
 
 /*fin de sesion*/

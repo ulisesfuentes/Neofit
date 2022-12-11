@@ -622,5 +622,9 @@ footer {
     color: #fff;
 }
 
+.message button:hover {
+    background-color: black;
+}
+
 
 /*fin de sesion*/

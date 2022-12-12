@@ -781,3 +781,8 @@ footer {
 .floating-contact-form * {
     box-sizing: border-box;
 }
+
+.floating-contact-form h3 {
+    font-size: 30px;
+    color: #003049;
+}

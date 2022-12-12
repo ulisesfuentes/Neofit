@@ -793,4 +793,8 @@ footer {
     content: "";
     height: 3px;
     width: 36px;
+    background: #ef233c;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
 }

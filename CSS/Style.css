@@ -815,3 +815,7 @@ footer {
 .floating-contact-form form textarea:focus {
     outline: none;
 }
+
+.floating-contact-form .field-container {
+    position: relative;
+}

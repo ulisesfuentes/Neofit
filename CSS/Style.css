@@ -810,3 +810,8 @@ footer {
     color: #003049;
     margin-bottom: 20px;
 }
+
+.floating-contact-form form input:focus,
+.floating-contact-form form textarea:focus {
+    outline: none;
+}

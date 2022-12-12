@@ -755,3 +755,9 @@ footer {
 .floating-contact-form .contact-icon i:hover {
     transform: scale(1.1);
 }
+
+.floating-contact-form .form-container {
+    position: fixed;
+    bottom: 120px;
+    right: 50px;
+}

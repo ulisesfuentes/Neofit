@@ -771,3 +771,9 @@ footer {
     pointer-events: none;
     transition: all 500ms ease;
 }
+
+.floating-contact-form .form-container.active {
+    transform: rotateZ(0deg);
+    opacity: 1;
+    pointer-events: auto;
+}

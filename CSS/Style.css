@@ -765,4 +765,9 @@ footer {
     font-family: "Roboto", sans-serif;
     box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
     border-radius: 24px;
+    transform: rotateZ(-6deg);
+    transform-origin: bottom right;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 500ms ease;
 }

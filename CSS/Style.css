@@ -840,3 +840,10 @@ footer {
     left: 24px;
     font-weight: bold;
 }
+
+.floating-contact-form .field-container i {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    color: rgba(0, 55, 85, 0.8);
+}

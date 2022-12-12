@@ -777,3 +777,7 @@ footer {
     opacity: 1;
     pointer-events: auto;
 }
+
+.floating-contact-form * {
+    box-sizing: border-box;
+}

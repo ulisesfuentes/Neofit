@@ -788,3 +788,9 @@ footer {
     margin-top: 10px;
     position: relative;
 }
+
+.floating-contact-form h3::after {
+    content: "";
+    height: 3px;
+    width: 36px;
+}

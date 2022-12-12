@@ -867,3 +867,10 @@ footer {
     cursor: pointer;
     transition: all 500ms ease;
 }
+
+.floating-contact-form form input[type="submit"]:hover {
+    background: #00659b;
+}
+
+
+/*fin de boton flotante*/

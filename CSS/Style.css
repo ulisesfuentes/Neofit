@@ -798,3 +798,10 @@ footer {
     left: 0;
     bottom: -4px;
 }
+
+.floating-contact-form form input[type="text"],
+.floating-contact-form form textarea {
+    width: 100%;
+    padding: 14px 32px;
+    padding-left: 40px;
+}

@@ -859,4 +859,8 @@ footer {
     border: none;
     background: #003049;
     color: #fff;
+    padding: 16px 32px;
+    width: 100%;
+    border-radius: 24px;
+    font-size: 16px;
 }

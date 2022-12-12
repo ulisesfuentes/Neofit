@@ -847,3 +847,10 @@ footer {
     left: 12px;
     color: rgba(0, 55, 85, 0.8);
 }
+
+.floating-contact-form form textarea {
+    height: 150px;
+    resize: none;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}

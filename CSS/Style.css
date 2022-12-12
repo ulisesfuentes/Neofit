@@ -863,4 +863,7 @@ footer {
     width: 100%;
     border-radius: 24px;
     font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 500ms ease;
 }

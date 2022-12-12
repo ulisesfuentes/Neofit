@@ -745,3 +745,9 @@ footer {
     cursor: pointer;
     padding: 16px;
 }
+
+.floating-contact-form .contact-icon i {
+    font-size: 42px;
+    color: #003049;
+    transition: all 300ms ease;
+}

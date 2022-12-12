@@ -751,3 +751,7 @@ footer {
     color: #003049;
     transition: all 300ms ease;
 }
+
+.floating-contact-form .contact-icon i:hover {
+    transform: scale(1.1);
+}

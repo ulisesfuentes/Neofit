@@ -830,3 +830,13 @@ footer {
     transition: all 300ms ease;
     pointer-events: none;
 }
+
+.floating-contact-form .field-container label.active {
+    font-size: 13px;
+    background: #ef233c;
+    color: #fff;
+    padding: 2px 16px;
+    top: -8px;
+    left: 24px;
+    font-weight: bold;
+}

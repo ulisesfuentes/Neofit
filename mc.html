@@ -5,13 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="CSS/Style.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/Style.css" rel="stylesheet" type="text/css">
     <!--script para el logo de usuario-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <title>NeoFit</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/7c704a8b81.js" crossorigin="anonymous"></script>
-    <script defer src="JS/menu.js"></script>
 </head>
 
 <body>
@@ -19,7 +17,7 @@
         <div class="header">
             <div class="logo">
                 <a href="#">
-                    <img src="imagenes/titulo.png" width="190px" ; height="55px" ; alt="logo">
+                    <img src="../imagenes/titulo.png" width="190px" ; height="55px" ; alt="logo">
                 </a>
             </div>
             <div class="nav">
@@ -29,7 +27,7 @@
                             <a href="#" class="link">REMERAS</a>
                             <div class="xs">
                                 <ul>
-                                    <li><a href="Remeras/ml.html">REMERAS MANGA LARGA</a></li>
+                                    <li><a href="../Remeras/ml.html">REMERAS MANGA LARGA</a></li>
                                     <li><a href="Remeras/mc.html">REMERAS MANGA CORTA</a></li>
                                 </ul>
 
@@ -43,7 +41,7 @@
                             <div class="xs">
                                 <ul>
                                     <li><a href="Pantalones/jeans.html">JEANS</a></li>
-                                    <li><a href="../Pantalones/joggins.html">JOGGINS</a></li>
+                                    <li><a href="../Pantalones/bermudas.html">BERMUDAS</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -92,29 +90,6 @@
                     <button id='search-button' type='submit'><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
-            <div class="container_sc">
-                <div class="shopping-cart">
-                    <h1 class="text-center">CARRITO</h1>
-
-
-                    <!--? START SHOPPING CART ITEMS -->
-                    <div class="shopping-cart-items shoppingCartItemsContainer">
-                    </div>
-                    <!-- ? END SHOPPING CART ITEMS -->
-
-                    <!-- START TOTAL -->
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="shopping-cart-total d-flex align-items-center">
-                                <p class="mb-0">Total</p>
-                                <p class="ml-4 mb-0 shoppingCartTotal">$0</p>
-                                <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal" data-target="#comprarModal">Comprar</button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
         </div>
     </center>
     <!--FIN HEADER-->
@@ -124,38 +99,17 @@
         <a href="#">Informacion sobre servicios</a>
     </div>
 
-    <!--FLYERS-->
-    <div class="flyers">
-        <div class="slider">
-            <ul>
-
-                <li>
-                    <img src="imagenes/Presentación ¿Cómo tener un hogar ordenado.jpg" alt="">
-                </li>
-                <li>
-                    <img src="imagenes/Collage de estilo rosado ropa.png" alt="">
-                </li>
-                <li>
-                    <img src="imagenes/post de instagram ropa minimalista beige.png" alt="">
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <h1>AÑADIDOS RECIENTEMENTE</h1>
-
-    <!--PRODUCTOS-->
 
     <center>
         <div class="grid_of_products">
             <!-- 1st PRODUCT-->
             <div class="item">
 
-                <img class="item-image" src="imagenes/algodon-negro-200x200.jpg">
+                <img class="item-image" src="../imagenes/productos/remeras 3.jpg" width="200px">
                 <h4 class="item-price">$3500</h4>
-                <h3 class="item-title">Remera lisa negra</h3>
+                <h3 class="item-title">Remera lisa azul</h3>
                 <div class="button-box">
-                    <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+                    <a class="item-button" href="../items/item1.html">Comprar</a>
                 </div>
 
             </div>
@@ -164,11 +118,11 @@
             <!--2nd PRODUCT-->
             <div class="item">
 
-                <img class="item-image" src="imagenes/productos/jogger.jpg" height="200">
-                <h4 class="item-price">$5500</h4>
-                <h3 class="item-title">Jogger gris Claro</h3>
+                <img class="item-image" src="../imagenes/algodon-negro-200x200.jpg">
+                <h4 class="item-price">$3500</h4>
+                <h3 class="item-title">Remera lisa negra</h3>
                 <div class="button-box">
-                    <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+                    <a class="item-button" href="../items/item1.html">Comprar</a>
                 </div>
             </div>
             <!--end of 2nd PRODUCT-->
@@ -176,11 +130,11 @@
             <!--3rd PRODUCT-->
             <div class="item">
 
-                <img class="item-image" src="imagenes/productos/buzo.jpg" height="200">
-                <h4 class="item-price">$2999</h4>
-                <h3 class="item-title">Campera</h3>
+                <img class="item-image" src="../imagenes/productos/remaeras.jpg" width="174px">
+                <h4 class="item-price">$4200</h4>
+                <h3 class="item-title">Remera estampada</h3>
                 <div class="button-box">
-                    <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+                    <a class="item-button" href="../items/item1.html">Comprar</a>
                 </div>
 
             </div>
@@ -197,10 +151,11 @@
         <div class="container__footer">
             <div class="box__footer">
                 <div class="logo">
-                    <img src="Images/logo-magtimus.png" alt="">
+                    <img src="imagenes/logo-magtimus.png" alt="">
                 </div>
                 <div class="terms">
-                    <p>Diseñamos ropa básica de hombres de calidad en Argentina</p>
+                    <p>Diseñamos ropa básica de hombres de calidad.
+                    </p>
                 </div>
             </div>
             <div class="box__footer">
@@ -233,56 +188,7 @@
             <p>Todos los derechos reservados © 2022 <b>neofit</b></p>
         </div>
     </footer>
-    <a href="https://wa.me/2995246178?text=precio%20de%20%20la%20ropa%20%20" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-
-    <!--fin del footer-->
-
-    <!-- inicio  del boton flotante-->
-
-    <div class="floating-contact-form">
-        <div class="form-container">
-            <h3>Necitas hacer un cambio</h3>
-
-            <form action="#">
-                <div class="field-container">
-                    <i class="fa-solid fa-user"></i>
-                    <label for="name">Nombre</label>
-                    <input class="form-input" type="text" id="name" />
-                </div>
-
-                <div class="field-container">
-                    <i class="fas fa-envelope"></i>
-                    <label for="email">Email</label>
-                    <input class="form-input" type="text" id="email" />
-                </div>
-
-                <div class="field-container">
-                    <i class="far fa-sticky-note"></i>
-                    <label for="message">Mensaje</label>
-                    <textarea class="form-input" id="message" cols="30" rows="10"></textarea>
-                </div>
-
-                <input type="submit" value="Enviar" />
-            </form>
-        </div>
-
-        <div class="contact-icon">
-            <i class="fas fa-comments"></i>
-        </div>
-    </div>
-
-    <script src="main.js"></script>
-
-
-
-    <!-- fin del boton flotante-->
-
-
-    <!-- SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-    <script src="JS/carrito.js"></script>
 
 </body>
+
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/Style.css" rel="stylesheet" type="text/css">
+    <!--script para el logo de usuario-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>NeoFit</title>
+    <script src="https://kit.fontawesome.com/7c704a8b81.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <center>
+        <div class="header">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../imagenes/titulo.png" width="190px" ; height="55px" ; alt="logo">
+                </a>
+            </div>
+            <div class="nav">
+                <ul class="nav-menu">
+                    <li class="nav-menu-item">
+                        <div class="seccion">
+                            <a href="../index.html" class="link">REMERAS</a>
+                            <div class="xs">
+                                <ul>
+                                    <li><a href="Remeras/ml.html">REMERAS MANGA LARGA</a></li>
+                                    <li><a href="../Remeras/mc.html">REMERAS MANGA CORTA</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-menu-item">
+                        <div class="seccion">
+                            <a href="#" class="link">PANTALONES</a>
+                            <div class="xs">
+                                <ul>
+                                    <li><a href="Pantalones/jeans.html">JEANS</a></li>
+                                    <li><a href="../Pantalones/bermudas.html">BERMUDAS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-menu-item">
+                        <div class="seccion">
+                            <a href="#" class="link">ZAPATILLAS</a>
+                            <div class="xs">
+                                <ul>
+                                    <li><a href="Zapatillas/zniños.html">ZAPATILLAS NIÑOS</a></li>
+                                    <li><a href="../Zapatillas/zadultos.html">ZAPATILLAS ADULTOS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-menu-item">
+                        <div class="seccion">
+                            <a href="#" class="link">ACCESORIOS</a>
+                            <div class="xs">
+                                <ul>
+                                    <li><a href="Accesorios/ropainterior.html">ROPA INTERIOR</a></li>
+                                    <li><a href="Accesorios/carteras.html">CARTERAS</a></li>
+                                    <li><a href="Accesorios/gorras.html">GORRAS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <!--USUARIO-->
+                    <li class="nav-menu-item">
+                        <div class="usuario">
+                            <a href="login.html">
+                                <i class="user-icon fa-solid fa-circle-user"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <!--CARRITO-->
+            <div id='search-box'>
+                <form action='/search' id='search-form' method='get' target='_top'>
+                    <input id='search-text' name='q' placeholder='Busca lo que queres' type='text' />
+                    <button id='search-button' type='submit'><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+    </center>
+    <!--FIN HEADER-->
+
+
+    <div class="service_information">
+        <a href="#">Informacion sobre servicios</a>
+    </div>
+
+
+    <center>
+        <div class="grid_of_products">
+            <!-- 1st PRODUCT-->
+            <div class="item">
+
+                <img class="item-image" src="../imagenes/productos/jogger.jpg">
+                <h4 class="item-price">$5500</h4>
+                <h3 class="item-title">Jogger gris</h3>
+                <div class="button-box">
+                    <a class="item-button" href="../items/item1.html">Comprar</a>
+                </div>
+
+            </div>
+            <!--end of 1st PRODUCT -->
+
+            <!--2nd PRODUCT-->
+            <div class="item">
+
+                <img class="item-image" src="../imagenes/productos/jogger 4.jpg" width="175" height="250">
+                <h4 class="item-price">$5200</h4>
+                <h3 class="item-title">Jogger gris claro</h3>
+                <div class="button-box">
+                    <a class="item-button" href="../items/item1.html">Comprar</a>
+                </div>
+            </div>
+            <!--end of 2nd PRODUCT-->
+
+            <!--3rd PRODUCT-->
+            <div class="item">
+
+                <img class="item-image" src="../imagenes/productos/jogger 2.jpg" width="168">
+                <h4 class="item-price">$6000</h4>
+                <h3 class="item-title">Jogger camel</h3>
+                <div class="button-box">
+                    <a class="item-button" href="../items/item1.html">Comprar</a>
+                </div>
+
+            </div>
+            <!--end of 3rd PRODUCT-->
+        </div>
+    </center>
+
+
+    <!--FIN PRODUCTOS-->
+
+    <!-- inicio  del footer-->
+    <footer>
+
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <img src="imagenes/logo-magtimus.png" alt="">
+                </div>
+                <div class="terms">
+                    <p>Diseñamos ropa básica de hombres de calidad.
+                    </p>
+                </div>
+            </div>
+            <div class="box__footer">
+                <h2>Conocenos</h2>
+                <a href="#">contactos</a>
+                <a href="#">ventas@neofit.net</a>
+                <a href="#">+54 9 3416 59-8852</a>
+                <a href="#"></a>
+            </div>
+
+            <div class="box__footer">
+                <h2>Ropa hombre</h2>
+                <a href="#">Pantalones cargo</a>
+                <a href="#">Hoodies y Buzos</a>
+                <a href="#">Remeras</a>
+                <a href="#">Chombas</a>
+            </div>
+
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+            </div>
+
+        </div>
+
+        <div class="box__copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2022 <b>neofit</b></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
